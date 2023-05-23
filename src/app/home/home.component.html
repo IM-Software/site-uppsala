@@ -1,0 +1,53 @@
+<app-header></app-header>
+<div class="background-image">
+  <h1>Skal !</h1>
+</div>
+<section class="about" id="about">
+  <div>
+    <img src="../../assets/imgs/REDES SOCIAIS_INSTA 2 1.png" alt="Imagem empresa">
+  </div>
+  <div class="text">
+    <h2>Sobre nossa marca</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic excepturi, ut saepe eveniet quaerat ea veritatis sunt eos vero. Perspiciatis corrupti et corporis dolorem provident eos error veniam reprehenderit nemo.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic excepturi, ut saepe eveniet quaerat ea veritatis sunt eos vero. Perspiciatis corrupti et corporis dolorem provident eos error veniam reprehenderit nemo.
+    </p>
+  </div>
+</section>
+<section class="drinks" id="drinks">
+  <h2>Nossas cervejas</h2>
+  <div>
+    <h3>Ps: Temos muito mais opções no nosso salão</h3>
+    <p>Clique em cima do copo</p>
+    <div class="beers">
+      <div class="beer" *ngFor="let beer of beers" (click)='clickBeer(beer)'>
+        <h3>{{beer.name}}</h3>
+        <img src="../../assets/imgs/cervejas/{{beer.name}}.png" alt="{{beer.name}}">
+      </div>
+      <div class="about-beer">
+        <h2>Saiba mais sobre a cerveja</h2>
+        <h3>{{selectedBeer.name}}</h3>
+        <p>{{selectedBeer.description}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hall" id="hall">
+  <div>
+    <h2>Nosso salão</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nesciunt praesentium, delectus optio corporis numquam maiores vel voluptate ex sit veniam magni quasi, pariatur quos blanditiis tenetur facilis nisi odit.</p>
+  </div>
+  <div>
+    <img src="../../assets/imgs/salaofotos.png" alt="Hall">
+  </div>
+</section>
+<section class="happy-hour">
+  <div>
+    <img src="../../assets/imgs/happyhour.png" alt="Happy hour">
+  </div>
+  <div class="text">
+    <img src="../../assets/imgs/LOGOS FINAL_SEM RUIDO SELO 1.png" alt="Logo Uppsala">
+    <h2>O melhor happy hour da cidade</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a consequatur ratione repudiandae accusantium delectus? Eum veniam veritatis obcaecati officiis, aliquam quo aspernatur consectetur pariatur ipsa, vel sunt, fugit facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, impedit. Eum voluptate alias ipsam fugit, cumque totam dicta quae labore modi voluptatum quibusdam officiis libero, deleniti mollitia tempore ab quis.</p>
+  </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,27 @@
+section{
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  padding: 20px;
+  width: 100%;
+  background-color: #D9D9D9;
+}
+
+ul li{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  margin: 5px;
+}
+
+#rights{
+  color: rgba(0, 0, 0, 0.247);
+}
+
+#rights a{
+  color: #1F4E85;
+}
