@@ -1,29 +1,45 @@
 <footer>
   <section>
-    <div>
-      <app-typography element="h3" text="Contato"></app-typography>
+    <div class="contact">
+      <div>
+        <app-typography element="h3" text="Contato"></app-typography>
+      </div>
       <ul>
-        <li><i class="fa-solid fa-phone" style="color: green"></i><app-typography element="p" text="(31) 98232-3388 - Wesley"></app-typography></li>
+        <li><i class="fa-solid fa-phone" style="color: green"></i><a href="tel:+5531982323388">
+          <app-typography element="p" text="(31) 98232-3388 - Wesley"></app-typography>
+        </a></li>
 
-        <li><i class="fa-solid fa-phone"></i><app-typography element="p" text="(33) 98448-9948 - Lucas"></app-typography></li>
+        <li><i class="fa-solid fa-phone"></i><a href="tel:+5533984489948">
+          <app-typography element="p" text="(33) 98448-9948 - Lucas"></app-typography>
+        </a></li>
 
-        <li><i class="fa-solid fa-envelope" style="color: var(--blue-color)"></i><app-typography element="p" text="cervejariauppsala@gmail.com"></app-typography></li>
+        <li><i class="fa-solid fa-envelope" style="color: var(--blue-color)"></i><a href="mailto:cervejariauppsala@gmail.com">
+          <app-typography element="p" text="cervejariauppsala@gmail.com"></app-typography>
+        </a></li>
 
-        <li><i class="fa-brands fa-instagram"></i><app-typography element="p" text="@cervejariauppsala"></app-typography></li>
+        <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/cervejariauppsala/" target="_blank">
+          <app-typography element="p" text="@cervejariauppsala"></app-typography>
+        </a></li>
       </ul>
     </div>
-    <div>
-      <app-typography element="h3" text="Horario de atendimento"></app-typography>
+    <div class="center">
+      <div>
+        <app-typography element="h3" text="Horario de atendimento"></app-typography>
+      </div>
       <app-typography element="p" text="Quarta a Sábado das 19:00 as 00:00"></app-typography>
       <app-typography element="p" text="Domingo das 13:00 as 21:00"></app-typography>
       <img src="../../../assets/imgs/LOGOS FINAL_SELO B 1.png" alt="Logo Uppsala">
     </div>
-    <div>
-      <app-typography element="h3" text="Venha celebrar com a gente"></app-typography>
-      <div class="loc">
-        <i class="fa-sharp fa-solid fa-map-pin" style="color: red;"></i><app-typography element="p" text="R. Geraldo Pereira, 395 - Pouso Alegre, Manhuaçu - MG, 36904-079"></app-typography>
+    <div class="map">
+      <div>
+        <app-typography element="h3" text="Venha celebrar com a gente"></app-typography>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573.770038099483!2d-42.02699775179329!3d-20.25563888569409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbafd94ba081995%3A0xd71dc05155b4b7d5!2sCervejaria%20Uppsala!5e0!3m2!1spt-BR!2sbr!4v1684872350138!5m2!1spt-BR!2sbr" width="100%" height="300" style="border-radius: 10px; border: 0; border-color: rgba(0, 0, 0, 0.295);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="loc">
+        <i class="fa-sharp fa-solid fa-map-pin" style="color: red;"></i><a href="https://www.google.com/maps/place/Cervejaria+Uppsala/@-20.2555424,-42.0266886,15z/data=!4m6!3m5!1s0xbafd94ba081995:0xd71dc05155b4b7d5!8m2!3d-20.2555424!4d-42.0266886!16s%2Fg%2F11s9f9f9g2?entry=ttu" target="_blank">
+          <app-typography element="p" text="R. Geraldo Pereira, 395 - Pouso Alegre, Manhuaçu - MG, 36904-079"></app-typography>
+        </a>
+      </div>
+      <div id="map"><a href="https://www.google.com/maps/place/Cervejaria+Uppsala/@-20.2555424,-42.0266886,15z/data=!4m6!3m5!1s0xbafd94ba081995:0xd71dc05155b4b7d5!8m2!3d-20.2555424!4d-42.0266886!16s%2Fg%2F11s9f9f9g2?entry=ttu" target="_blank"><img src="../../../assets/imgs/mapa.png" alt="mapa"></a></div>
     </div>
   </section>
   <section class="rights">
